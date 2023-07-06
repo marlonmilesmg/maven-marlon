@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-06T11:17:35.255Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Mi9THL2x3z2Q8FWHfDAu" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-06T11:38:18.922Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="nOLgOkBWheBG2GB4VnrZ" version="21.5.2" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="1090" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1917" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -351,6 +351,9 @@
             <mxPoint x="106" y="1124" as="sourcePoint" />
             <mxPoint x="336" y="1064" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="m8UpaGy_HR4XhSaPoXqb-80" value="Distribute traffic across&lt;br&gt;Multiple instances, FE servers&lt;br&gt;Improved scalability and fault tolerance" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="1170" width="230" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
