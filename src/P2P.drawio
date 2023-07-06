@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-06T11:10:09.619Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Hhb9oqSo35YDnwYLoKGG" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-06T11:17:35.255Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Mi9THL2x3z2Q8FWHfDAu" version="21.5.2" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1090" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -337,11 +337,20 @@
         <mxCell id="m8UpaGy_HR4XhSaPoXqb-75" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
           <mxGeometry x="150" y="900" width="580" height="680" as="geometry" />
         </mxCell>
-        <mxCell id="m8UpaGy_HR4XhSaPoXqb-77" value="Loan Applications" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="m8UpaGy_HR4XhSaPoXqb-75">
-          <mxGeometry x="206" y="63" width="120" height="30" as="geometry" />
+        <mxCell id="m8UpaGy_HR4XhSaPoXqb-77" value="Loan Applications&lt;br&gt;&amp;amp; Listings" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="m8UpaGy_HR4XhSaPoXqb-75">
+          <mxGeometry x="206" y="60" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="m8UpaGy_HR4XhSaPoXqb-76" value="AWS Cloud Technologies" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="141" y="878" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m8UpaGy_HR4XhSaPoXqb-78" value="Application&amp;nbsp;&lt;br&gt;Load Balancer" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m8UpaGy_HR4XhSaPoXqb-79" value="" style="endArrow=none;html=1;rounded=0;exitX=0.88;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="m8UpaGy_HR4XhSaPoXqb-78">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="106" y="1124" as="sourcePoint" />
+            <mxPoint x="336" y="1064" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
