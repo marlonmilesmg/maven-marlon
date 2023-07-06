@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-06T11:38:18.922Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="nOLgOkBWheBG2GB4VnrZ" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-06T12:09:00.475Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="OE0GQvghXsvR4wbHad_c" version="21.5.2" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1917" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -183,7 +183,7 @@
         <mxCell id="m8UpaGy_HR4XhSaPoXqb-42" value="FE&lt;br&gt;App" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="m8UpaGy_HR4XhSaPoXqb-40">
           <mxGeometry x="40" y="40" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="m8UpaGy_HR4XhSaPoXqb-43" value="3rd Party System (Bank Wallet - Core Banking System)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="m8UpaGy_HR4XhSaPoXqb-40">
+        <mxCell id="m8UpaGy_HR4XhSaPoXqb-43" value="User Wallet &lt;br&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="m8UpaGy_HR4XhSaPoXqb-40">
           <mxGeometry x="120" y="30" width="110" height="80" as="geometry" />
         </mxCell>
         <mxCell id="m8UpaGy_HR4XhSaPoXqb-44" value="3rd Party Credit Check and Scoring" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="m8UpaGy_HR4XhSaPoXqb-40">
@@ -192,7 +192,7 @@
         <mxCell id="m8UpaGy_HR4XhSaPoXqb-45" value="System Serices" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="m8UpaGy_HR4XhSaPoXqb-39">
           <mxGeometry x="20" y="150" width="430" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="m8UpaGy_HR4XhSaPoXqb-46" value="System Server" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="m8UpaGy_HR4XhSaPoXqb-45">
+        <mxCell id="m8UpaGy_HR4XhSaPoXqb-46" value="System Instance" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="m8UpaGy_HR4XhSaPoXqb-45">
           <mxGeometry x="190" y="40" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="m8UpaGy_HR4XhSaPoXqb-47" value="Matching Engine" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="m8UpaGy_HR4XhSaPoXqb-45">
@@ -234,7 +234,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="m8UpaGy_HR4XhSaPoXqb-56" value="Lane 3" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="m8UpaGy_HR4XhSaPoXqb-39">
+        <mxCell id="m8UpaGy_HR4XhSaPoXqb-56" value="Extended Services" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="m8UpaGy_HR4XhSaPoXqb-39">
           <mxGeometry x="20" y="390" width="430" height="120" as="geometry" />
         </mxCell>
         <mxCell id="m8UpaGy_HR4XhSaPoXqb-57" value="Amortization&lt;br&gt;Service" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="m8UpaGy_HR4XhSaPoXqb-56">
@@ -340,6 +340,24 @@
         <mxCell id="m8UpaGy_HR4XhSaPoXqb-77" value="Loan Applications&lt;br&gt;&amp;amp; Listings" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="m8UpaGy_HR4XhSaPoXqb-75">
           <mxGeometry x="206" y="60" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="m8UpaGy_HR4XhSaPoXqb-83" value="Loan Applications&lt;br&gt;Service" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="m8UpaGy_HR4XhSaPoXqb-75">
+          <mxGeometry x="230" y="518" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m8UpaGy_HR4XhSaPoXqb-84" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="m8UpaGy_HR4XhSaPoXqb-75" target="m8UpaGy_HR4XhSaPoXqb-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="518" as="sourcePoint" />
+            <mxPoint x="310" y="468" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8UpaGy_HR4XhSaPoXqb-85" value="Loan Listings Service" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="m8UpaGy_HR4XhSaPoXqb-75">
+          <mxGeometry x="420" y="518" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m8UpaGy_HR4XhSaPoXqb-86" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="m8UpaGy_HR4XhSaPoXqb-75">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="518" as="sourcePoint" />
+            <mxPoint x="220" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="m8UpaGy_HR4XhSaPoXqb-76" value="AWS Cloud Technologies" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="141" y="878" width="160" height="30" as="geometry" />
         </mxCell>
@@ -352,8 +370,93 @@
             <mxPoint x="336" y="1064" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="m8UpaGy_HR4XhSaPoXqb-80" value="Distribute traffic across&lt;br&gt;Multiple instances, FE servers&lt;br&gt;Improved scalability and fault tolerance" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="1170" width="230" height="60" as="geometry" />
+        <mxCell id="m8UpaGy_HR4XhSaPoXqb-80" value="Distribute traffic across&lt;br&gt;Multiple instances, FE servers&lt;br&gt;Improved scalability and fault tolerance,&lt;br&gt;auto-scale number of instances based on demand" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-139" y="1170" width="290" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m8UpaGy_HR4XhSaPoXqb-81" value="AWS Auth&lt;br&gt;&amp;nbsp; (AWS Cognito)" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="936" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m8UpaGy_HR4XhSaPoXqb-82" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="m8UpaGy_HR4XhSaPoXqb-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="1000" as="sourcePoint" />
+            <mxPoint x="430" y="1180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="1010" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8UpaGy_HR4XhSaPoXqb-88" value="Payment &lt;br&gt;Gateway" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="1410" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m8UpaGy_HR4XhSaPoXqb-89" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="m8UpaGy_HR4XhSaPoXqb-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="1450" as="sourcePoint" />
+            <mxPoint x="110" y="1400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8UpaGy_HR4XhSaPoXqb-90" value="Payment Gateway &lt;br&gt;to facilitate different payment channels" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-128" y="1493" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m8UpaGy_HR4XhSaPoXqb-91" value="AWS&lt;br&gt;RDS" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1650" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="m8UpaGy_HR4XhSaPoXqb-92" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="m8UpaGy_HR4XhSaPoXqb-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="1650" as="sourcePoint" />
+            <mxPoint x="430" y="1620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8UpaGy_HR4XhSaPoXqb-93" value="AWS&lt;br&gt;S3" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="150" y="700" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="m8UpaGy_HR4XhSaPoXqb-94" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="m8UpaGy_HR4XhSaPoXqb-42" target="m8UpaGy_HR4XhSaPoXqb-93">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="878" as="sourcePoint" />
+            <mxPoint x="280" y="828" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8UpaGy_HR4XhSaPoXqb-95" value="S3 buckets&amp;nbsp;&lt;br&gt;for hosting our FE Application" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="199" y="784" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m8UpaGy_HR4XhSaPoXqb-96" value="AWS&amp;nbsp;&lt;br&gt;Redis" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1660" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m8UpaGy_HR4XhSaPoXqb-97" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="m8UpaGy_HR4XhSaPoXqb-91" target="m8UpaGy_HR4XhSaPoXqb-96">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="1650" as="sourcePoint" />
+            <mxPoint x="430" y="1600" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8UpaGy_HR4XhSaPoXqb-98" value="Use Redis&lt;br&gt;to Cache data and reduce load on the DB,&lt;br&gt;improving perfomance and response times" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="542" y="1720" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m8UpaGy_HR4XhSaPoXqb-99" value="AWS&amp;nbsp;&lt;br&gt;CloudWatch" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="1260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m8UpaGy_HR4XhSaPoXqb-100" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0.083;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="m8UpaGy_HR4XhSaPoXqb-99" target="m8UpaGy_HR4XhSaPoXqb-46">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="1310" as="sourcePoint" />
+            <mxPoint x="430" y="1260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="710" y="1280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8UpaGy_HR4XhSaPoXqb-101" value="Centrally log, mornitor and alert&lt;br&gt;with CloudWatch. Easier troubleshooting" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="765" y="1340" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m8UpaGy_HR4XhSaPoXqb-102" value="AWS&lt;br&gt;Lambda" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="825" y="1580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m8UpaGy_HR4XhSaPoXqb-103" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="m8UpaGy_HR4XhSaPoXqb-85">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="825" y="1580" as="sourcePoint" />
+            <mxPoint x="875" y="1530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8UpaGy_HR4XhSaPoXqb-104" value="Deploy Backend Services as seperate services&lt;br&gt;using Lambda" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="743" y="1642" width="270" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
